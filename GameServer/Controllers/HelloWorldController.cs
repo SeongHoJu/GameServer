@@ -9,9 +9,9 @@ namespace GameServer.Controllers
     public class HelloWorldController : Controller
     {
         // GET: /HelloWorld/
-        public string Index()
+        public ActionResult Index()
         {
-            return "This is my <b>default</b> action...";
+            return View();
         }
 
         // 
